@@ -45,19 +45,18 @@ ext {
     compose_ui_tooling_version = '1.1.1'
     compose_ui_test_version = '1.1.1'
 
-    accompanist_version = '2.0.0-rc01'
+    accompanist_version = '2.0.0-rc02'
     lifecycle_viewmodel_compose_version = '2.5.0-alpha04'
     coroutines_version = '1.6.0'
-    lifecycle_viewmodel_ktx_version = '2.4.1'
+    lifecycle_viewmodel_ktx_version = '2.5.0-alpha04'
 
     dagger_hilt_version = '2.41'
     dagger_hilt_complier_version = '2.41'
-    hilt_complier_version = '1.0.0'
-    hilt_viwmodel_version = '1.0.0-alpha03'
+    hilt_viewmodel_version = '1.0.0-alpha03'
     hilt_navigation_version ='1.0.0'
 
     retrofit_version = '2.9.0'
     converter_gson_version = '2.9.0'
-    okhttp_version = '5.0.0-alpha.2'
+    okhttp_version = '5.0.0-alpha.6'
 
 }
