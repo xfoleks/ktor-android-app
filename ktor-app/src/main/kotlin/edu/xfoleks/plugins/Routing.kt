@@ -1,6 +1,6 @@
 package edu.xfoleks.plugins
 
-import edu.xfoleks.routs.randomImage
+import edu.xfoleks.routes.randomImage
 import io.ktor.server.application.*
 import io.ktor.server.http.content.*
 import io.ktor.server.routing.*
