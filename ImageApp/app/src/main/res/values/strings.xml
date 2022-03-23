@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Image App</string>
+    <string name="car">Car</string>
+    <string name="next_car">Next car</string>
 </resources>

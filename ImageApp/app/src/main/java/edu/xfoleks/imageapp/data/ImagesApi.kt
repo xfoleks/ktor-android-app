@@ -3,7 +3,7 @@ package edu.xfoleks.imageapp.data
 import retrofit2.http.GET
 
 interface ImagesApi {
-    @GET("/randomimages")
+    @GET("/randomcar")
     suspend fun getRandomImage(): RandomImage
 
     companion object {
