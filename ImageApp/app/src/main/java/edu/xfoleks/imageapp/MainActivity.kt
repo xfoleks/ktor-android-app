@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
                     image?.let {
                         AsyncImage(
                             model = ImageRequest.Builder(LocalContext.current)
-                                .data(it.imageUrl)
+                                .data(it.imageUri)
                                 .crossfade(true)
                                 .build(),
                             contentDescription = getString(R.string.car)
