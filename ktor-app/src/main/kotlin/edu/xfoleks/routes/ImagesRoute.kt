@@ -6,7 +6,7 @@ import io.ktor.server.application.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
-private const val BASE_URL = "http://192.168.50.238:8100"
+private const val BASE_URL = "http://192.168.50.238:8080"
 private val images = listOf(
     RandomImage("Car 1", "Speedy car", "$BASE_URL/images/car1.jpg"),
     RandomImage("Car 2", "Cool car", "$BASE_URL/images/car2.jpg"),
