@@ -15,7 +15,7 @@ object AppModule {
 
     @Provides
     @Singleton
-    fun providesImagesApi(): ImagesApi = Retrofit.Builder()
+    fun provideImagesApi(): ImagesApi = Retrofit.Builder()
         .addConverterFactory(GsonConverterFactory.create())
         .baseUrl(ImagesApi.BASE_URL)
         .build()
